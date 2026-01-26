@@ -6,7 +6,19 @@ from colorama import init, Fore, Back, Style
 
 fake = Faker()
 
-input(Back.BLACK + Style.BRIGHT + Fore.RED + "Welcome to The Fake ID Generator!!!\nPress ENTER to continue\n")
+logo = [
+r" _____    _           ____ ___  ",
+r"|  ___|__(_)_ __     / ___/ _ \ ",
+r"| |_ / _ \ | '_ \   | |  | | | |",
+r"|  _|  __/ | | | |  | |__| |_| |",
+r"|_|  \___|_|_| |_| (_)____\___/ "
+]
+
+print(Back.BLACK + Style.BRIGHT + Fore.RED)
+
+print("\n".join(logo))
+
+input(Back.BLACK + Style.BRIGHT + Fore.RED + "\n\n" + "Welcome to The Fake ID Generator!!!\nPress ENTER to continue\n")
 
 # Ask user what they want
 gender = input("Do you want a male or female name? (m/f)\n").lower()
