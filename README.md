@@ -1,5 +1,5 @@
 # Fake-ID-Generator
-Bro... Idk. Just some random file I coded.
+Idk. Just some random file I coded.
 
 # Dependencies
 pip install rich<br>
