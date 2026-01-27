@@ -18,10 +18,15 @@ print(Back.BLACK + Style.BRIGHT + Fore.RED)
 
 print("\n".join(logo))
 
+print("\n")
+
+for step in track(range(50), description="[green]Initializing..."):
+    time.sleep(0.1)
+
 input(Back.BLACK + Style.BRIGHT + Fore.RED + "\n\n" + "Welcome to The Fake ID Generator!!!\nPress ENTER to continue\n")
 
 # Ask user what they want
-gender = input("Do you want a male or female name? (m/f)\n").lower()
+g = input("Do you want a male or female name? (m/f)\n").lower()
 a = input("Do you want an address? y/n\n").lower()
 p = input("Do you want a phone number? y/n\n").lower()
 s = input("Do you want a social security number? y/n\n").lower()
